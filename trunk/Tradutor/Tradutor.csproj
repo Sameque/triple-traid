@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB0CCA57-7C8F-4213-8F2E-28705AF67AFA}</ProjectGuid>
+    <ProjectGuid>{89850CAD-06EB-45F9-B309-AEE1C9C39B68}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Model</RootNamespace>
-    <AssemblyName>Model</AssemblyName>
+    <RootNamespace>Tradutor</RootNamespace>
+    <AssemblyName>Tradutor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,12 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BaseModelo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="BaseEntidade">
+      <HintPath>..\Referencias\BaseEntidade.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseModelo">
       <HintPath>..\Referencias\BaseModelo.dll</HintPath>
     </Reference>
-    <Reference Include="GalaSoft.MvvmLight">
-      <HintPath>..\Referencias\GalaSoft.MvvmLight.dll</HintPath>
+    <Reference Include="BaseTradutor">
+      <HintPath>..\Referencias\BaseTradutor.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\Referencias\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,14 +49,19 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Campo.cs" />
-    <Compile Include="Carta.cs" />
-    <Compile Include="CartaCampo.cs" />
-    <Compile Include="Enuns.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidade\Entidade.csproj">
+      <Project>{72252556-a4be-4785-9457-91c3f1c91e78}</Project>
+      <Name>Entidade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{bb0cca57-7c8f-4213-8f2e-28705af67afa}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
