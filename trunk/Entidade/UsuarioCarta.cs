@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entidade
 {
-    class UsuarioCarta : EntidadeBase
+    public class UsuarioCarta : EntidadeBase
     {
         public int id_Usuario { get; set; }
         [ForeignKey("id_Usuario")]
