@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="View.Controles.CartaEmCampo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:thriple="http://thriple.codeplex.com/"
+             xmlns:controles="clr-namespace:View.Controles"
+              Width="200" Height="230"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+
+    <controles:Carta DataContext="{Binding}"/>
+</UserControl>
