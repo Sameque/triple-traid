@@ -12,5 +12,13 @@ namespace Entidade
     {
         [MaxLength(40)]
         public string Nome { get; set; }
+        [MaxLength(100)]
+        public string Email { get; set; }
+        [MaxLength(20)]
+        public string Senha { get; set; }
+        public int Pontos { get; set; }
+        public int Vitoria { get; set; }
+        public int Derrota { get; set; }
+        public int Empate { get; set; }
     }
 }
