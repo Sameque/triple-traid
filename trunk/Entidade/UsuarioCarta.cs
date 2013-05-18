@@ -18,6 +18,6 @@ namespace Entidade
         [ForeignKey("id_Carta")]
         public virtual Carta Carta { get; set; }
 
-        public int Quantidade_Cartas { get; set; }
+        public int Quantidade { get; set; }
     }
 }
