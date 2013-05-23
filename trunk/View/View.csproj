@@ -96,24 +96,106 @@
     <Folder Include="Fonts\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Imagens\001.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Imagens\002.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Imagens\003.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Imagens\004.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Imagens\005.png" />
-    <Resource Include="Imagens\006.png" />
-    <Resource Include="Imagens\007.png" />
-    <Resource Include="Imagens\008.png" />
-    <Resource Include="Imagens\009.png" />
-    <Resource Include="Imagens\010.png" />
+    <Resource Include="Imagens\3-D Man.png" />
+    <Resource Include="Imagens\A.I.M..png" />
+    <Resource Include="Imagens\Abomination.png" />
+    <Resource Include="Imagens\Agent Zero.png" />
+    <Resource Include="Imagens\Anole.png" />
+    <Resource Include="Imagens\Ant-Man.png" />
+    <Resource Include="Imagens\Apocalypse.png" />
+    <Resource Include="Imagens\Archangel.png" />
+    <Resource Include="Imagens\Avalanche.png" />
+    <Resource Include="Imagens\Baron Helmut Zemo.png" />
+    <Resource Include="Imagens\Batroc the Leaper.png" />
+    <Resource Include="Imagens\Beast.png" />
+    <Resource Include="Imagens\Black Bolt.png" />
+    <Resource Include="Imagens\Black Cat.png" />
+    <Resource Include="Imagens\Black Knight.png" />
+    <Resource Include="Imagens\Black Panther.png" />
+    <Resource Include="Imagens\Black Widow.png" />
+    <Resource Include="Imagens\Blade.png" />
+    <Resource Include="Imagens\Blink.png" />
+    <Resource Include="Imagens\Blob.png" />
+    <Resource Include="Imagens\Blue Marvel.png" />
+    <Resource Include="Imagens\Bullseye.png" />
+    <Resource Include="Imagens\Cable.png" />
+    <Resource Include="Imagens\Captain America.png" />
+    <Resource Include="Imagens\Captain Britain.png" />
+    <Resource Include="Imagens\Captain Marvel.png" />
+    <Resource Include="Imagens\Carnage.png" />
+    <Resource Include="Imagens\Chuck Norris.png" />
+    <Resource Include="Imagens\Colossus.png" />
+    <Resource Include="Imagens\Cyclops.png" />
+    <Resource Include="Imagens\Daredevil.png" />
+    <Resource Include="Imagens\Deadpool.png" />
+    <Resource Include="Imagens\Doctor Doom.png" />
+    <Resource Include="Imagens\Doctor Octopus.png" />
+    <Resource Include="Imagens\Doctor Strange.png" />
+    <Resource Include="Imagens\Domino.png" />
+    <Resource Include="Imagens\Elektra.png" />
+    <Resource Include="Imagens\Emma Frost.png" />
+    <Resource Include="Imagens\Galactus.png" />
+    <Resource Include="Imagens\Gambit.png" />
+    <Resource Include="Imagens\Genis-Vell.png" />
+    <Resource Include="Imagens\Ghost Rider.png" />
+    <Resource Include="Imagens\Green Goblin.png" />
+    <Resource Include="Imagens\Hank Pym.png" />
+    <Resource Include="Imagens\Havok.png" />
+    <Resource Include="Imagens\Hawkeye.png" />
+    <Resource Include="Imagens\Hellion.png" />
+    <Resource Include="Imagens\Hercules.png" />
+    <Resource Include="Imagens\Hope Summers.png" />
+    <Resource Include="Imagens\Hulk.png" />
+    <Resource Include="Imagens\Human Torch.png" />
+    <Resource Include="Imagens\Iceman.png" />
+    <Resource Include="Imagens\Invisible Woman.png" />
+    <Resource Include="Imagens\Iron Fist.png" />
+    <Resource Include="Imagens\Iron Man.png" />
+    <Resource Include="Imagens\Jean Grey.png" />
+    <Resource Include="Imagens\Jubilee.png" />
+    <Resource Include="Imagens\Juggernaut.png" />
+    <Resource Include="Imagens\Kitty Pryde.png" />
+    <Resource Include="Imagens\Lizard.png" />
+    <Resource Include="Imagens\Loki.png" />
+    <Resource Include="Imagens\Madrox.png" />
+    <Resource Include="Imagens\Magik.png" />
+    <Resource Include="Imagens\Magneto.png" />
+    <Resource Include="Imagens\MODOK.png" />
+    <Resource Include="Imagens\Ms. Marvel.png" />
+    <Resource Include="Imagens\Mystique.png" />
+    <Resource Include="Imagens\Nick Fury.png" />
+    <Resource Include="Imagens\Nightcrawler.png" />
+    <Resource Include="Imagens\Northstar.png" />
+    <Resource Include="Imagens\Nova.png" />
+    <Resource Include="Imagens\Omega Red.png" />
+    <Resource Include="Imagens\Professor X.png" />
+    <Resource Include="Imagens\Psylocke.png" />
+    <Resource Include="Imagens\Punisher.png" />
+    <Resource Include="Imagens\Red Hulk.png" />
+    <Resource Include="Imagens\Red Skull.png" />
+    <Resource Include="Imagens\Rogue.png" />
+    <Resource Include="Imagens\Sabretooth.png" />
+    <Resource Include="Imagens\Scarlet Spider.png" />
+    <Resource Include="Imagens\Scarlet Witch.png" />
+    <Resource Include="Imagens\Sentry.png" />
+    <Resource Include="Imagens\Sersi.png" />
+    <Resource Include="Imagens\She-Hulk.png" />
+    <Resource Include="Imagens\Sif.png" />
+    <Resource Include="Imagens\Silver Surfer.png" />
+    <Resource Include="Imagens\Spider-Man.png" />
+    <Resource Include="Imagens\Spider-Woman.png" />
+    <Resource Include="Imagens\Storm.png" />
+    <Resource Include="Imagens\Taskmaster.png" />
+    <Resource Include="Imagens\Thanos.png" />
+    <Resource Include="Imagens\The Hood.png" />
+    <Resource Include="Imagens\Thing.png" />
+    <Resource Include="Imagens\Thor.png" />
+    <Resource Include="Imagens\Venom.png" />
+    <Resource Include="Imagens\War Machine.png" />
+    <Resource Include="Imagens\Wasp.png" />
+    <Resource Include="Imagens\Wiccan.png" />
+    <Resource Include="Imagens\Wolverine.png" />
+    <Resource Include="Imagens\X-23.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\.NETFramework\v4.5\Microsoft.Expression.Blend.WPF.targets" />
