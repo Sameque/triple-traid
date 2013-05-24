@@ -7,8 +7,8 @@
     <ProjectGuid>{89850CAD-06EB-45F9-B309-AEE1C9C39B68}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tradutor</RootNamespace>
-    <AssemblyName>Tradutor</AssemblyName>
+    <RootNamespace>TripleTriad.Tradutor</RootNamespace>
+    <AssemblyName>TripleTriad.Tradutor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -56,11 +56,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Entidade\Entidade.csproj">
       <Project>{72252556-a4be-4785-9457-91c3f1c91e78}</Project>
-      <Name>Entidade</Name>
+      <Name>Entidade %28Projetos\Triple Triad\Entidade%29</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{bb0cca57-7c8f-4213-8f2e-28705af67afa}</Project>
-      <Name>Model</Name>
+      <Name>Model %28Projetos\Triple Triad\Model%29</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

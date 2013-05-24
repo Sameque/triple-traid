@@ -7,8 +7,8 @@
     <ProjectGuid>{BB0CCA57-7C8F-4213-8F2E-28705AF67AFA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Model</RootNamespace>
-    <AssemblyName>Model</AssemblyName>
+    <RootNamespace>TripleTriad.Model</RootNamespace>
+    <AssemblyName>TripleTriad.Model</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
