@@ -7,8 +7,8 @@
     <ProjectGuid>{DCEFBF90-5B3A-41BC-AD1E-FB7A9B34FD1A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Servico</RootNamespace>
-    <AssemblyName>Servico</AssemblyName>
+    <RootNamespace>TripleTriad.Servico</RootNamespace>
+    <AssemblyName>TripleTriad.Servico</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -53,7 +53,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Entidade\Entidade.csproj">
       <Project>{72252556-a4be-4785-9457-91c3f1c91e78}</Project>
-      <Name>Entidade</Name>
+      <Name>Entidade %28Projetos\Triple Triad\Entidade%29</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
