@@ -7,7 +7,7 @@
     <ProjectGuid>{DCEFBF90-5B3A-41BC-AD1E-FB7A9B34FD1A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TripleTriad.Servico</RootNamespace>
+    <RootNamespace>Servico</RootNamespace>
     <AssemblyName>TripleTriad.Servico</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

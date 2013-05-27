@@ -7,7 +7,7 @@
     <ProjectGuid>{B0A2A64A-0425-450E-9B70-AD8C16383A44}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TripleTriad.Aplicacao</RootNamespace>
+    <RootNamespace>Aplicacao</RootNamespace>
     <AssemblyName>TripleTriad.Aplicacao</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
