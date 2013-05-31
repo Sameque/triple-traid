@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
 
-namespace View.Converter
+namespace TripleTriad.View.Converter
 {
     public class CartaPontosConverter : IValueConverter
     {

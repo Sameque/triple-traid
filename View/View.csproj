@@ -7,7 +7,7 @@
     <ProjectGuid>{BDDC67C8-79DF-452F-B5F3-7D9B992F102C}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>View</RootNamespace>
+    <RootNamespace>TripleTriad.View</RootNamespace>
     <AssemblyName>TripleTriad.View</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

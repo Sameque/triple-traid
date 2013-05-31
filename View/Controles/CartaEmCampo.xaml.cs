@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace View.Controles
+namespace TripleTriad.View.Controles
 {
     public partial class CartaEmCampo : UserControl
     {

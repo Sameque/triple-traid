@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Model
+namespace TripleTriad.Model
 {
     public class Campo : ModeloBase
     {

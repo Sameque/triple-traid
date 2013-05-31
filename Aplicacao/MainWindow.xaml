@@ -1,9 +1,9 @@
-﻿<metro:MetroWindow x:Class="Aplicacao.MainWindow"
+﻿<metro:MetroWindow x:Class="TripleTriad.Aplicacao.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:metro="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-        xmlns:view="clr-namespace:View.Controles;assembly=TripleTriad.View"
-        xmlns:model="clr-namespace:Model;assembly=TripleTriad.Model"
+        xmlns:view="clr-namespace:TripleTriad.View.Controles;assembly=TripleTriad.View"
+        xmlns:model="clr-namespace:TripleTriad.Model;assembly=TripleTriad.Model"
         Title="Triple Traid" WindowState="Maximized">
 
     <Grid>

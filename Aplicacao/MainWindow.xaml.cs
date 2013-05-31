@@ -1,5 +1,4 @@
 ﻿using MahApps.Metro.Controls;
-using Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -15,8 +14,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TripleTriad.Model;
 
-namespace Aplicacao
+namespace TripleTriad.Aplicacao
 {
     public partial class MainWindow : MetroWindow
     {
