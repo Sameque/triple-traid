@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Aplicacao.Properties {
+namespace TripleTriad.Aplicacao.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

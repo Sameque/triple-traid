@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidade
+namespace TripleTriad.Entidade
 {
     public class Usuario : EntidadeBase
     {

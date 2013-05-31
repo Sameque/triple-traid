@@ -8,7 +8,7 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Media.Imaging;
 
-namespace View.Converter
+namespace TripleTriad.View.Converter
 {
     public class CartaImagemConverter : IValueConverter
     {

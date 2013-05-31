@@ -7,7 +7,7 @@
     <ProjectGuid>{72252556-A4BE-4785-9457-91C3F1C91E78}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Entidade</RootNamespace>
+    <RootNamespace>TripleTriad.Entidade</RootNamespace>
     <AssemblyName>TripleTriad.Entidade</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
