@@ -10,12 +10,14 @@ namespace TripleTriad.Model
 {
     public class Carta : ModeloBase
     {
-        public int PontoEsquerda
+
+
+        public string Nome
         {
-            get { return (int)GetValue(PontoEsquerdaProperty); }
-            set { SetValue(PontoEsquerdaProperty, value); }
+            get { return (string)GetValue(NomeProperty); }
+            set { SetValue(NomeProperty, value); }
         }
-        public static readonly DependencyProperty PontoEsquerdaProperty = DependencyProperty.Register("PontoEsquerda", typeof(int), typeof(Carta), new PropertyMetadata(0));
+        public static readonly DependencyProperty NomeProperty =  DependencyProperty.Register("Nome", typeof(string), typeof(Carta), new PropertyMetadata(string.Empty));
 
         public int PontoCima
         {
@@ -24,6 +26,13 @@ namespace TripleTriad.Model
         }
         public static readonly DependencyProperty PontoCimaProperty = DependencyProperty.Register("PontoCima", typeof(int), typeof(Carta), new PropertyMetadata(0));
 
+        public int PontoBaixo
+        {
+            get { return (int)GetValue(PontoBaixoProperty); }
+            set { SetValue(PontoBaixoProperty, value); }
+        }
+        public static readonly DependencyProperty PontoBaixoProperty = DependencyProperty.Register("PontoBaixo", typeof(int), typeof(Carta), new PropertyMetadata(0));
+
         public int PontoDireita
         {
             get { return (int)GetValue(PontoDireitaProperty); }
@@ -31,11 +40,19 @@ namespace TripleTriad.Model
         }
         public static readonly DependencyProperty PontoDireitaProperty = DependencyProperty.Register("PontoDireita", typeof(int), typeof(Carta), new PropertyMetadata(0));
 
-        public int PontoBaixo
+        public int PontoEsquerda
         {
-            get { return (int)GetValue(PontoBaixoProperty); }
-            set { SetValue(PontoBaixoProperty, value); }
+            get { return (int)GetValue(PontoEsquerdaProperty); }
+            set { SetValue(PontoEsquerdaProperty, value); }
         }
-        public static readonly DependencyProperty PontoBaixoProperty = DependencyProperty.Register("PontoBaixo", typeof(int), typeof(Carta), new PropertyMetadata(0));
+        public static readonly DependencyProperty PontoEsquerdaProperty = DependencyProperty.Register("PontoEsquerda", typeof(int), typeof(Carta), new PropertyMetadata(0));
+
+        public int Preco
+        {
+            get { return (int)GetValue(PrecoProperty); }
+            set { SetValue(PrecoProperty, value); }
+        }
+        public static readonly DependencyProperty PrecoProperty = DependencyProperty.Register("Preco", typeof(int), typeof(Carta), new PropertyMetadata(0));
+       
     }
 }
