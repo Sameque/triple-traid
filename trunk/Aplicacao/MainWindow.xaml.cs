@@ -1,4 +1,5 @@
-﻿using MahApps.Metro.Controls;
+﻿using BaseViewModel.Controles;
+using MahApps.Metro.Controls;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -23,6 +24,9 @@ namespace TripleTriad.Aplicacao
         public MainWindow()
         {
             InitializeComponent();
+
+            teWindow.TypeWindow = typeof(MetroWindow);
+            teWindow.ResourceDictionary = this.Resources;
         }
     }
 }
