@@ -21,5 +21,17 @@ namespace TripleTriad.Tradutor
             m.PontoDireita = e.PontoDireita;
             return m;
         }
+
+        public override Entidade.Carta Traduzir(Model.Carta m)
+        {
+            var e = base.Traduzir(m);
+            e.Nome = m.Nome;
+            e.Preco = m.Preco;
+            e.PontoBaixo = m.PontoBaixo;
+            e.PontoCima = m.PontoCima;
+            e.PontoEsquerda = m.PontoEsquerda;
+            e.PontoDireita = m.PontoDireita;
+            return e;
+        }
     }
 }
