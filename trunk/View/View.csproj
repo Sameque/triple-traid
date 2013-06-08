@@ -75,6 +75,9 @@
     <Compile Include="ViewCartaCRUD.xaml.cs">
       <DependentUpon>ViewCartaCRUD.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewUsuarioRanking.xaml.cs">
+      <DependentUpon>ViewUsuarioRanking.xaml</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -97,6 +100,10 @@
     <Page Include="ViewCartaCRUD.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewUsuarioRanking.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
