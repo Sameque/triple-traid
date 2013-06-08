@@ -15,9 +15,12 @@ using System.Windows.Shapes;
 
 namespace TripleTriad.View.Controles
 {
-    public partial class Carta : UserControl
+    /// <summary>
+    /// Interaction logic for UsuarioRankingFiltros.xaml
+    /// </summary>
+    public partial class UsuarioRankingFiltros : UserControl
     {
-        public Carta()
+        public UsuarioRankingFiltros()
         {
             InitializeComponent();
         }
