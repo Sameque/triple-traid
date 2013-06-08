@@ -22,5 +22,19 @@ namespace TripleTriad.Tradutor
 
             return m;
         }
+        public override Entidade.Usuario Traduzir(Model.UsuarioRanking m)
+        {
+            var e = base.Traduzir(m);
+            if (e == null)
+                return null;
+
+            e.Nome = m.Nome;
+            e.Pontos = m.Pontos;
+            e.Vitoria = m.Vitoria;
+            e.Derrota = m.Derrota;
+            e.Empate = m.Empate;
+
+            return e;
+        }
     }
 }
