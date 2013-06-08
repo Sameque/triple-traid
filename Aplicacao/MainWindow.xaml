@@ -7,10 +7,10 @@
         Title="Triple Traid" WindowState="Maximized">
 
     <Grid>
-        <view:ViewCartaCRUD>
-            <view:ViewCartaCRUD.DataContext>
-                <viewModel:ViewModelCartaCRUD/>
-            </view:ViewCartaCRUD.DataContext>
-        </view:ViewCartaCRUD>
+        <view:ViewUsuarioCRUD>
+            <view:ViewUsuarioCRUD.DataContext>
+                <viewModel:ViewModelUsuarioCRUD/>
+            </view:ViewUsuarioCRUD.DataContext>
+        </view:ViewUsuarioCRUD>
     </Grid>
 </metro:MetroWindow>
