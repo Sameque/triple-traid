@@ -20,5 +20,17 @@ namespace TripleTriad.Tradutor
 
             return m;
         }
+        public override Entidade.Usuario Traduzir(Model.UsuarioCadastro m)
+        {
+            var e = base.Traduzir(m);
+            if (e == null)
+                return null;
+
+            e.Nome = m.Nome;
+            e.Email = m.Email;
+            e.Senha = m.Senha;
+
+            return e;
+        }
     }
 }
