@@ -13,10 +13,10 @@ namespace TripleTriad.Entidade
         [MaxLength(40)]
         public string Nome { get; set; }
         
-        public int ForcaCima { get; set; }
-        public int ForcaBaixo { get; set; }
-        public int ForcaDireita { get; set; }
-        public int ForcaEsquerda { get; set; }
+        public int PontoCima { get; set; }
+        public int PontoBaixo { get; set; }
+        public int PontoDireita { get; set; }
+        public int PontoEsquerda { get; set; }
         public int Preco { get; set; }
     }
 }
