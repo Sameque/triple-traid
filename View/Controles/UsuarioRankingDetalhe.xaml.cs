@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace TripleTriad.View.Controles
 {
     /// <summary>
-    /// Interaction logic for RankingDetalhe.xaml
+    /// Interaction logic for UsuarioRankingDetalhe.xaml
     /// </summary>
-    public partial class RankingDetalhe : UserControl
+    public partial class UsuarioRankingDetalhe : UserControl
     {
-        public RankingDetalhe()
+        public UsuarioRankingDetalhe()
         {
             InitializeComponent();
         }
