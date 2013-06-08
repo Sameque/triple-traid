@@ -51,18 +51,6 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controles\CartaCadastro.xaml.cs">
-      <DependentUpon>CartaCadastro.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controles\CartaConsultaItem.xaml.cs">
-      <DependentUpon>CartaConsultaItem.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controles\CartaDetalhe.xaml.cs">
-      <DependentUpon>CartaDetalhe.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controles\CartaFiltros.xaml.cs">
-      <DependentUpon>CartaFiltros.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Controles\UsuarioCadastro.xaml.cs">
       <DependentUpon>UsuarioCadastro.xaml</DependentUpon>
     </Compile>
@@ -74,15 +62,6 @@
     </Compile>
     <Compile Include="Controles\UsuarioFiltros.xaml.cs">
       <DependentUpon>UsuarioFiltros.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controles\UsuarioRankingConsultaItem.xaml.cs">
-      <DependentUpon>UsuarioRankingConsultaItem.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controles\UsuarioRankingDetalhe.xaml.cs">
-      <DependentUpon>UsuarioRankingDetalhe.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Controles\UsuarioRankingFiltros.xaml.cs">
-      <DependentUpon>UsuarioRankingFiltros.xaml</DependentUpon>
     </Compile>
     <Compile Include="Converter\CartaPontosConverter.cs" />
     <Compile Include="Converter\CartaImagemConverter.cs" />
@@ -116,47 +95,19 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Controles\CartaCadastro.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Controles\CartaConsultaItem.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Controles\CartaDetalhe.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Controles\CartaFiltros.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Controles\UsuarioCadastro.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controles\UsuarioConsultaItem.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controles\UsuarioDetalhe.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controles\UsuarioFiltros.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Controles\UsuarioRankingConsultaItem.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Controles\UsuarioRankingDetalhe.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Controles\UsuarioRankingFiltros.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
