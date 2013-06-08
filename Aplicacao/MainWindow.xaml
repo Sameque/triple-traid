@@ -6,6 +6,6 @@
         Title="Triple Traid" WindowState="Maximized">
 
     <Grid>
-        <view:ViewUsuarioRanking/>
+        <view:ViewCartaCRUD />
     </Grid>
 </metro:MetroWindow>
