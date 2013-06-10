@@ -102,9 +102,6 @@
     <Compile Include="ViewCartaCRUD.xaml.cs">
       <DependentUpon>ViewCartaCRUD.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewUsuarioCRUD.xaml.cs">
-      <DependentUpon>ViewUsuarioCRUD.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewUsuarioRanking.xaml.cs">
       <DependentUpon>ViewUsuarioRanking.xaml</DependentUpon>
     </Compile>
@@ -164,10 +161,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="ViewCartaCRUD.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ViewUsuarioCRUD.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
