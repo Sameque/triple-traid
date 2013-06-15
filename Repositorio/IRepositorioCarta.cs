@@ -12,9 +12,9 @@ namespace TripleTriad.Repositorio
     {
         private static ObservableCollection<Model.Carta> Cartas = new ObservableCollection<Model.Carta>()
             {
-                new Model.Carta(){Nome="Java > C# forever para sempre"},
-                new Model.Carta(){Nome="C# < Java forever para sempre"},
-                new Model.Carta(){Nome="C# < Java forever para sempre"}
+                new Model.Carta(){Nome="Cartinha", Preco= 100, PontoBaixo=10, PontoCima=9, PontoDireita=5, PontoEsquerda=3},
+                new Model.Carta(){Nome="Carta de Baraio", Preco= 56, PontoBaixo=6, PontoCima=2, PontoDireita=6, PontoEsquerda=3},
+                new Model.Carta(){Nome="Carta Foda", Preco= 2, PontoBaixo=9, PontoCima=8, PontoDireita=1, PontoEsquerda=5}
             };
 
         public void Deletar(Model.Carta m)
