@@ -2,9 +2,41 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
-      
+
     <Grid>
-        <TextBlock Text="{Binding Path=Nome}" />
-        <Button HorizontalAlignment="Right" Width="50" Content="Botãozão" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Image Width="60" Margin="5" Source="C:\Users\Lucas\Desktop\asd.png" Grid.Column="0" />
+        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="{Binding Path=Nome}"  Grid.Row="0" FontWeight="Light" FontSize="16" />
+            
+            <Grid Grid.Row="1" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="40" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="{Binding Path=Preco, StringFormat={}{0} pts}" Grid.Column="0" FontWeight="Light" />
+                
+                <Grid Grid.Column="1" >
+                    <TextBlock Text="{Binding Path=PontoCima}"     VerticalAlignment="Top"    HorizontalAlignment="Center" FontWeight="Light" />
+                    <TextBlock Text="{Binding Path=PontoBaixo}"    VerticalAlignment="Bottom" HorizontalAlignment="Center" FontWeight="Light" />
+                    <TextBlock Text="{Binding Path=PontoEsquerda}" VerticalAlignment="Center" HorizontalAlignment="Left"   FontWeight="Light" />
+                    <TextBlock Text="{Binding Path=PontoDireita}"  VerticalAlignment="Center" HorizontalAlignment="Right"  FontWeight="Light" />
+                </Grid>
+            </Grid>
+            
+            
+            
+        </Grid>
+        
     </Grid>
 </UserControl>
