@@ -1,8 +1,5 @@
-﻿using BaseViewModel.Controles;
-using FirstFloor.ModernUI.Windows.Controls;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,18 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using TripleTriad.Model;
 
 namespace TripleTriad.Aplicacao
 {
-    public partial class MainWindow : ModernWindow
+    /// <summary>
+    /// Interaction logic for Index.xaml
+    /// </summary>
+    public partial class Index : UserControl
     {
-        public MainWindow()
+        public Index()
         {
             InitializeComponent();
-
-            teWindow.TypeWindow = typeof(ModernDialog);
-            teWindow.ResourceDictionary = this.Resources;
         }
     }
 }

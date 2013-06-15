@@ -1,11 +1,13 @@
-﻿<metro:MetroWindow x:Class="TripleTriad.Aplicacao.MainWindow"
+﻿<mui:ModernWindow x:Class="TripleTriad.Aplicacao.MainWindow" xml:lang="pt-BR"
+        xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+        
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:metro="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-        xmlns:view="clr-namespace:TripleTriad.View;assembly=TripleTriad.View"
-        xmlns:viewModel="clr-namespace:TripleTriad.ViewModel;assembly=TripleTriad.ViewModel"
-        Title="Triple Traid" WindowState="Maximized">
+        
+        WindowStyle="None" WindowState="Maximized"
+        ContentSource="Index.xaml"
+        Title="Triple Traid">
 
-    <Grid>
-    </Grid>
-</metro:MetroWindow>
+    <Grid/>
+
+</mui:ModernWindow>

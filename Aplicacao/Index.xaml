@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="TripleTriad.Aplicacao.Index"
+             Margin="0, -60, -20, -20"
+             
+             xmlns:view="clr-namespace:TripleTriad.View;assembly=TripleTriad.View"
+             xmlns:viewModel="clr-namespace:TripleTriad.ViewModel;assembly=TripleTriad.ViewModel"
+             
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+    <Grid>
+        <view:ViewCartaCRUD>
+            <view:ViewCartaCRUD.DataContext>
+                <viewModel:ViewModelCartaCRUD/>
+            </view:ViewCartaCRUD.DataContext>
+        </view:ViewCartaCRUD>
+    </Grid>
+</UserControl>
