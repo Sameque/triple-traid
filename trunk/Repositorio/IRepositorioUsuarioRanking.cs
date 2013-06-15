@@ -9,6 +9,30 @@ namespace TripleTriad.Repositorio
 {
     public class IRepositorioUsuarioRanking : RepositorioBase, IRepositorioBase<Model.UsuarioRanking>
     {
+        private static System.Collections.ObjectModel.ObservableCollection<Model.UsuarioRanking> Ranking = new System.Collections.ObjectModel.ObservableCollection<Model.UsuarioRanking>()
+        {
+            new Model.UsuarioRanking()
+            {
+                Posicao = 001,
+                Nome = "Caio",
+                Pontos = 100,
+                Vitoria = 30          
+            },
+            new Model.UsuarioRanking()
+            {
+                Posicao = 002,
+                Nome = "Sameque",
+                Pontos = 1,
+                Vitoria = -3          
+            },
+            new Model.UsuarioRanking()
+            {
+                Posicao = 003,
+                Nome = "Foguinho",
+                Pontos = 100,
+                Vitoria = 30          
+            },
+        };
 
         public void Deletar(Model.UsuarioRanking m)
         {
@@ -22,7 +46,7 @@ namespace TripleTriad.Repositorio
 
         public System.Collections.ObjectModel.ObservableCollection<Model.UsuarioRanking> ObterLista()
         {
-            throw new NotImplementedException();
+            return Ranking;
         }
 
         public Model.UsuarioRanking ObterPorId(int Id)
