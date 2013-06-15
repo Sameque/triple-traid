@@ -10,6 +10,13 @@ namespace TripleTriad.Model
 {
     public class UsuarioRanking : ModeloBase
     {
+        public int Posicao
+        {
+            get { return (int)GetValue(PosicaoProperty); }
+            set { SetValue(PosicaoProperty, value); }
+        }
+        public static readonly DependencyProperty PosicaoProperty = DependencyProperty.Register("Posicao", typeof(int), typeof(UsuarioRanking), new PropertyMetadata(0));
+
         public string Nome
         {
             get { return (string)GetValue(NomeProperty); }

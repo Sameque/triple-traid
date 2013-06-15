@@ -1,5 +1,6 @@
 ﻿<UserControl x:Class="TripleTriad.View.ViewUsuarioRanking"
              xmlns:viewBase="clr-namespace:BaseView;assembly=BaseView"
+             xmlns:controles="clr-namespace:TripleTriad.View.Controles"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
@@ -7,16 +8,16 @@
     <Grid>
         <viewBase:ViewConsultaBase>
             <viewBase:ViewConsultaBase.Filtros>
-                <TextBlock Text="Meu Filtro"/>
+                <controles:UsuarioRankingFiltros/>
             </viewBase:ViewConsultaBase.Filtros>
             
             <viewBase:ViewConsultaBase.Detalhe>
-                <TextBlock Text="Meu Detalhe"/>
+                <controles:UsuarioRankingDetalhe/>
             </viewBase:ViewConsultaBase.Detalhe>
             
             <viewBase:ViewConsultaBase.ConsultaItem>
                 <DataTemplate>
-                    <TextBlock Text="Minha Consulta"/>
+                    <controles:UsuarioRankingConsultaItem/>
                 </DataTemplate>
             </viewBase:ViewConsultaBase.ConsultaItem>
 
