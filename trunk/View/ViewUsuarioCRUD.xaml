@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="TripleTriad.View.ViewUsuarioCRUD"
+             xmlns:viewBase="clr-namespace:BaseView;assembly=BaseView"
+             xmlns:controles="clr-namespace:TripleTriad.View.Controles"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+    <Grid>
+        <viewBase:ViewCRUDBase>
+            <viewBase:ViewCRUDBase.Filtros>
+                <controles:UsuarioFiltros/>
+            </viewBase:ViewCRUDBase.Filtros>
+
+            <viewBase:ViewCRUDBase.Detalhe>
+                <controles:UsuarioDetalhe/>
+            </viewBase:ViewCRUDBase.Detalhe>
+
+            <viewBase:ViewCRUDBase.Cadastro>
+                <controles:UsuarioCadastro/>
+            </viewBase:ViewCRUDBase.Cadastro>
+
+            <viewBase:ViewCRUDBase.ConsultaItem>
+                <DataTemplate>
+                    <controles:UsuarioConsultaItem/>
+                </DataTemplate>
+            </viewBase:ViewCRUDBase.ConsultaItem>
+
+        </viewBase:ViewCRUDBase>
+    </Grid>
+</UserControl>
