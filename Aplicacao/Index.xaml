@@ -8,10 +8,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
     <Grid>
-        <view:ViewCartaCRUD>
-            <view:ViewCartaCRUD.DataContext>
-                <viewModel:ViewModelCartaCRUD/>
-            </view:ViewCartaCRUD.DataContext>
-        </view:ViewCartaCRUD>
+        <view:ViewUsuarioCRUD>
+            <view:ViewUsuarioCRUD.DataContext>
+                <viewModel:ViewModelUsuarioCRUD/>
+            </view:ViewUsuarioCRUD.DataContext>
+        </view:ViewUsuarioCRUD>
     </Grid>
 </UserControl>
