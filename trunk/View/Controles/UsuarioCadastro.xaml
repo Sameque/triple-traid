@@ -3,6 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
     <Grid>
-            
+        <StackPanel>
+            <TextBlock Text="Nome"/>
+            <TextBox Text="{Binding Path=EntidadeEditada.Nome}"/>
+            <TextBlock Text="Email"/>
+            <TextBox Text="{Binding Path=EntidadeEditada.Email}"/>
+            <TextBlock Text="Senha"/>
+            <TextBox Text="{Binding Path=EntidadeEditada.Senha}"/>
+        </StackPanel>
+
     </Grid>
 </UserControl>

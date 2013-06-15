@@ -4,8 +4,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
     <Grid>
         <StackPanel>
-            <TextBlock Text="{Binding Path=Nome}"/>
-            <TextBlock Text="{Binding Path=Email}"/>
+            <TextBlock Text="{Binding Path=Nome}" FontSize="16" FontWeight="Light"/>
+            <TextBlock Text="{Binding Path=Email}" FontSize="11" FontWeight="Light" Margin="0, 4"/>
+            
         </StackPanel>
     </Grid>
 </UserControl>

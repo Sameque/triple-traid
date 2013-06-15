@@ -11,23 +11,26 @@ namespace TripleTriad.Repositorio
     public class IRepositorioUsuario : RepositorioBase, IRepositorioBase<Model.UsuarioCadastro>
     {
         private static ObservableCollection<Model.UsuarioCadastro> Usuarios =
-            new ObservableCollection<Model.UsuarioCadastro>() 
+            new ObservableCollection<Model.UsuarioCadastro>()
             {
-                new Model.UsuarioCadastro() { Nome="Léo", Email="@@" },
-                new Model.UsuarioCadastro() { Nome="Léo2" },
-                new Model.UsuarioCadastro() { Nome="Léo3" },
-                new Model.UsuarioCadastro() { Nome="Léo4" },
+                //new Model.UsuarioCadastro() { Nome="Léo", Email="@@" },
+                //new Model.UsuarioCadastro() { Nome="Léo2", Email="teste@teste.com" },
+                //new Model.UsuarioCadastro() { Nome="Léo3", Email="uniararas@uniararas.br" },
+                //new Model.UsuarioCadastro() { Nome="Léo4", Email="leo@leo.com.br" },
             };
 
+        private static int IdAtual = 1;
 
         public void Deletar(Model.UsuarioCadastro m)
         {
+
             IRepositorioUsuario.Usuarios.Remove(m);
+
         }
 
         public Model.UsuarioCadastro Novo()
         {
-            return new Model.UsuarioCadastro();
+            return new Model.UsuarioCadastro() { Id = IdAtual++ };
         }
 
         public System.Collections.ObjectModel.ObservableCollection<Model.UsuarioCadastro> ObterLista()
