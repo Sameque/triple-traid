@@ -45,9 +45,6 @@
     <Reference Include="BaseTradutor">
       <HintPath>..\Referencias\BaseTradutor.dll</HintPath>
     </Reference>
-    <Reference Include="BaseUtilitarios">
-      <HintPath>..\Referencias\BaseUtilitarios.dll</HintPath>
-    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\Referencias\EntityFramework.dll</HintPath>
     </Reference>

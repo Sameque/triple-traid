@@ -34,8 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BaseModelo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="BaseEntidade">
+      <HintPath>..\Referencias\BaseEntidade.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseModelo">
       <HintPath>..\Referencias\BaseModelo.dll</HintPath>
     </Reference>
     <Reference Include="BaseRepositorio">
@@ -43,6 +45,12 @@
     </Reference>
     <Reference Include="BaseServico">
       <HintPath>..\Referencias\BaseServico.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseTradutor">
+      <HintPath>..\Referencias\BaseTradutor.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseUtilitarios">
+      <HintPath>..\Referencias\BaseUtilitarios.dll</HintPath>
     </Reference>
     <Reference Include="BaseView">
       <HintPath>..\Referencias\BaseView.dll</HintPath>
@@ -58,6 +66,12 @@
     </Reference>
     <Reference Include="GalaSoft.MvvmLight">
       <HintPath>..\Referencias\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\Referencias\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro.Resources">
+      <HintPath>..\Referencias\MahApps.Metro.Resources.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Windows.Shell">
       <HintPath>..\Referencias\Microsoft.Windows.Shell.dll</HintPath>
@@ -144,6 +158,10 @@
     <ProjectReference Include="..\Servico\Servico.csproj">
       <Project>{dcefbf90-5b3a-41bc-ad1e-fb7a9b34fd1a}</Project>
       <Name>Servico</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tradutor\Tradutor.csproj">
+      <Project>{89850cad-06eb-45f9-b309-aee1c9c39b68}</Project>
+      <Name>Tradutor</Name>
     </ProjectReference>
     <ProjectReference Include="..\ViewModel\ViewModel.csproj">
       <Project>{1e0f3528-c752-48d6-85f8-d839ac5d401e}</Project>
