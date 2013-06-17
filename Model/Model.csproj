@@ -30,8 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BaseModelo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="BaseModelo">
       <HintPath>..\Referencias\BaseModelo.dll</HintPath>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight">
